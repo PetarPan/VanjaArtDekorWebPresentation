@@ -1,0 +1,54 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <table id="tabela1">
+        <tr>
+            <th><h3>Корисни линкови</h3></th>>
+        </tr>
+        <tr>
+            <td><a href="#">Почетна</a></td>
+        </tr>
+         <tr>
+            <td><a href="#">О нама</a></td>
+            </tr>
+            <tr>
+            <td><a href="#">Производи</a></td>
+            </tr>
+            <tr>
+            <td><a href="#">Инсталација</a></td>
+            </tr>
+            <tr>
+                <td><a href="#">Контакт</a></td>
+            </tr>
+    </table>
+    <table id="tabela2">
+        <tr><th><h3>Контакт</h3></th></tr>
+            <tr><td><br>Адреса: Цара Лазара 10, <br>151308 Калуђерица</td></tr>
+            <tr><td><br>Телефон: 064/1215522</td></tr>
+            <tr><td><br>Мејл:
+                <a href="mailto:voja1111@gmail.com" target="voja1111@gmail.com">voja1111@gmail.com</a></td></tr>
+    </table>
+    <div id="map"></div>
+
+        <script>
+            function initMap() {
+                var location = { lat: -25.363, lng: 131.044 };
+                var map = new google.maps.Map(document.getElementById("map"), {
+                    zoom: 4,
+                    center: location
+                });
+            }
+            
+        </script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCbyeODXxZVtZSMvinJvFWPq2xyxE7CmTQcallback=initMap">
+        </script>
+</body>
+</html>

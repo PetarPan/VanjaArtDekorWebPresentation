@@ -1,0 +1,354 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+html, body {
+    background-image: url(slike/slika1.jpg);
+    height: 100%;
+}
+
+        /*
+        ===NAVIGACIJA===
+        */
+
+#navigacija .logo{
+    float: left;
+    margin-left: -21px;
+    margin-top: -35px;
+    width: 10%;
+}
+#header {
+   
+    min-height: 100%; 
+    min-width: 100%;
+
+}
+#navigacija {
+    width: 100%;
+    height: 60px;
+    background: linear-gradient(to top left, rgba(138, 51, 53, 0.9)20%, rgba(66, 13, 9, 0.9)80%);
+    position: fixed;
+
+}
+
+#navigacija ul {
+    float: left;
+    margin-left: 40px;
+
+}
+
+#navigacija ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+#navigacija ul li a{
+    display: block;
+    font-family: arial;
+    color: orange;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 18px;
+    padding: 22px 14px;
+    text-decoration: none;
+}
+#navigacija ul li ul{
+    display: none;
+    position: absolute;
+    background: linear-gradient(to top left, rgba(138, 51, 53, 0.9)20%, rgba(66, 13, 9, 0.9)80%);
+    padding: 10px;
+    border-radius: 0px 0px 4px 4px;
+    opacity: 0.9;
+    margin-left: 0px;
+}
+#navigacija ul li a:hover {
+    background: linear-gradient(to top left, rgba(138, 51, 53, 0.9)20%, rgba(66, 13, 9, 0.9)80%);
+}
+#navigacija ul li:hover ul{
+    display: block;
+}
+#navigacija ul li ul li a{
+    padding: 8px 14px;
+}
+
+#navigacija ul li ul li a:hover{
+    background-color: #f3f3f3;
+}
+#navigacija ul li ul li{
+    width: 180px;
+}
+/****************SLIKA*********************/
+
+#wrapper {
+ 
+    margin-top: -859px;
+}
+.img {
+    width: 100%; 
+    height: 330px;
+    border-bottom: black solid 2px;
+}
+
+
+
+
+
+/*
+===GLAVNO===
+*/
+
+#main {
+    margin-top: -4px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-top:black  solid 3px;
+    border-left:  black  solid 3px;
+    border-right:  black  solid 3px;
+    border-radius: 2px 2px 0px 0px;
+    border-color: black;
+    background: linear-gradient(to top left, rgba(138, 51, 53, 0.8)20%, rgba(66, 13, 9, 0.5)80%); 
+    height: auto;
+}
+#glavno p{
+    text-align: justify;
+    font-family: arial serif;
+    font-size: 18px;
+    color: orange;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/******************PROIZVODI I USLUGE*********************/
+
+#proizvod {
+    width: 85%;
+    color: orange;
+    text-align: justify;
+    font-size: 21px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+/***********************KONTAKT**************************/
+
+.h3kontakt {
+    padding: 10px;
+    color: orange;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.pkontakt {
+    padding: 10px;
+    color: orange;
+    font-size: 18px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+input {
+    margin-left: 190px;
+    width: 60%;
+    height: 35px;
+    border: 1px solid rgb(4, 12, 24);
+    opacity: .75;
+}
+
+input:hover {
+    border: 1px solid rgba(39, 39, 39, 0.9);
+}
+
+label {
+    margin-left: 190px;
+    font-size: 21px;
+    color: orange;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+textarea {
+    margin-left: 190px;
+    width: 60%;
+    height: 110px;
+    border: 1px solid rgb(4, 12, 24);
+    opacity: .75;
+}
+
+textarea:hover {
+    border: 1px solid rgba(39, 39, 39, 0.9);
+}
+
+.submit {
+    margin-left: 320px;
+    width: 30%;
+    height: 45px;
+    color: orange;
+    background-color: rgb(138, 51, 53);
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: rgb(153, 57, 59);
+    border: 1px solid rgba(39, 39, 39, 0.9);
+}
+
+.submit:active {
+    background-color: rgba(153, 57, 59, 0.9);
+    box-shadow: 0 5px rgba(153, 57, 59, 0.9);
+    transform: translateY(5px);
+    border: 1px solid rgba(39, 39, 39, 0.9);
+  }
+
+
+/*
+===GALERIJA===
+*/
+
+.galerija {
+    overflow: hidden;
+    padding: 80px 0px;
+}
+
+.img-galerija {
+    width: 180px;
+    height: 80px;
+    margin: 5px 5px;
+    float: left;
+    position: relative;
+    
+}
+
+.img-galerija img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    transition: all 200ms ease-in-out;
+    -webkit-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    filter: grayscale(100%);
+}
+
+.img-galerija:hover {
+    z-index: 1000;
+}
+
+.img-galerija img:hover {
+    width: 110%;
+    height: 100%;
+    position: absolute;
+    top: -5%;
+    right: 0px;
+    bottom: 0px;
+    left: -5%;
+    filter: grayscale(0%);
+    transform: scale(1.1);
+}
+
+
+/*
+===FUTER=== 
+*/
+
+#footer {
+    background-color: rgba(16, 16, 16, 0.8);
+    position: relative;
+    height: 310px;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+/*
+===TABELE===
+*/
+
+#tabela1 {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    padding: 15px;
+    float: left;
+}
+#tabela1 a{
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-decoration: none;
+}
+#tabela1 a:hover {
+    text-decoration: underline;
+    font-size: 20px;
+}
+#tabela2 {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin-top: -2px;
+    padding-left: 40px;
+
+    float: left;
+}
+#tabela td tr {
+    padding: 5px;
+}
+#tabela2 tr td {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#tabela2 a {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+#hr-tabela {
+    width: 200px;
+    color: white;
+    border: inset 1px;
+}
+/*
+===MAPA===
+*/
+
+#lokacija {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-align: center;
+    margin-left: 30px;
+}
+#tabela3 {
+    float: left;
+    padding-left: 60px;
+    margin-top: 19px;
+}  
+
+
+#map {
+    height: 200px;
+    width: 400px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.kopirajt {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin-top: 270px;
+    margin-left: 420px;
+}
+.kopirajt a{
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.slika {
+    position: absolute;
+    margin-top: -35px;
+    margin-left: 380px;
+
+}
+.slika img {
+    width: 50%;
+}
